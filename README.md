@@ -14,3 +14,6 @@ http://www.academia.edu/6133228/Arrays_and_Strings_in_C_Programming
 
 C++ Working with strings (stringstream)
 http://www.dreamincode.net/forums/topic/95826-stringstream-tutorial/
+
+C++ Convert String-Index to integer:
+int number = stoi(line.substr(index, 1));
