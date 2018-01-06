@@ -17,3 +17,9 @@ http://www.dreamincode.net/forums/topic/95826-stringstream-tutorial/
 
 C++ Convert String-Index to integer:
 int number = stoi(line.substr(index, 1));
+
+C Adding two big numbers
+http://forum.codecall.net/topic/72184-cc-adding-two-big-numbers/
+
+C++ Map (The C++ Dictionary Class)
+https://www.moderncplusplus.com/map/
