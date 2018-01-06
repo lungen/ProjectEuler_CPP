@@ -15,11 +15,18 @@ http://www.academia.edu/6133228/Arrays_and_Strings_in_C_Programming
 C++ Working with strings (stringstream)
 http://www.dreamincode.net/forums/topic/95826-stringstream-tutorial/
 
-C++ Convert String-Index to integer:
-int number = stoi(line.substr(index, 1));
+    C++ Convert String-Index to integer:
+    int number = stoi(line.substr(index, 1));
+
+C++ Map (The C++ Dictionary Class)
+https://www.moderncplusplus.com/map/
+
+GMP - The GNU Multiple Precision Arithmetic Library (Big Numbers)
+https://gmplib.org/
+
+    Installation:
+    http://www.mathemagix.org/www/mmdoc/doc/html/external/gmp.en.html
 
 C Adding two big numbers
 http://forum.codecall.net/topic/72184-cc-adding-two-big-numbers/
 
-C++ Map (The C++ Dictionary Class)
-https://www.moderncplusplus.com/map/
