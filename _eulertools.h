@@ -24,9 +24,25 @@ void showLimits() {
 // *** *** *** *** *** *** *** ARRAY ** *** *** *** *** *** *** *** *** *** *** *** ***
 void printArray (int arg[], int length)
 {
-for (int n=0; n<length; ++n)
-cout << arg[n] << ' ';
-cout << '\n';
+    cout << __func__ << endl;
+    for (int n=0; n<length; ++n)
+    cout << arg[n] << ' ';
+    cout << '\n';
+}
+
+// https://stackoverflow.com/questions/8767166/passing-a-2d-array-to-a-c-function#8767247
+template <size_t rows, size_t cols>
+void process_2d_array_template(int (&array)[rows][cols])
+{
+    std::cout << __func__ << std::endl;
+    for (size_t i = 0; i < rows; ++i)
+    {
+        std::cout << i << ": ";
+        for (size_t j = 0; j < cols; ++j)
+            /*std::cout << array[i][j] << '\t';*/
+            std::cout << array[i][j] << ' ';
+        std::cout << std::endl;
+    }
 }
 
 // *** *** *** *** *** *** *** PRIME NUMBERS *** *** *** *** *** *** *** *** *** ***
