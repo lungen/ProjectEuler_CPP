@@ -45,6 +45,20 @@ void process_2d_array_template(int (&array)[rows][cols])
     }
 }
 
+// *** *** *** *** *** *** ***  VECTORS *** *** *** *** *** *** *** *** *** ***
+void printVectorStr(vector<string>& v)
+{
+    for (int i = 0; i < v.size(); ++i){
+        cout << v[i] << " ";
+    }
+}
+
+void printVectorInt(vector<int>& v)
+{
+    for (int i = 0; i < v.size(); ++i){
+        cout << v[i] << " ";
+    }
+}
 // *** *** *** *** *** *** *** PRIME NUMBERS *** *** *** *** *** *** *** *** *** ***
 bool isPrime(int x)
 {

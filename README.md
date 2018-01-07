@@ -12,8 +12,12 @@ https://www.tutorialspoint.com/cplusplus/cpp_pointers.htm
 C++ Arrays
 http://www.academia.edu/6133228/Arrays_and_Strings_in_C_Programming
 
+C++ Vectors
+https://stackoverflow.com/questions/26997740/c-elegant-way-to-mark-index-which-doesnt-belong-to-a-vector
+
 C++ Working with strings (stringstream)
 http://www.dreamincode.net/forums/topic/95826-stringstream-tutorial/
+http://forums.codeguru.com/showthread.php?540809-understanding-istringstream-in-c
 
     C++ Convert String-Index to integer:
     int number = stoi(line.substr(index, 1));
