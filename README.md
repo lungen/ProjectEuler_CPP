@@ -51,3 +51,5 @@ https://de.m.wikibooks.org/wiki/C%2B%2B-Programmierung/_Inhaltsverzeichnis
 
 IDEs/DEBUGGER
 https://www.tecmint.com/best-linux-ide-editors-source-code-editors/
+http://www.drdobbs.com/testing/13-linux-debuggers-for-c-reviewed/240156817
+
