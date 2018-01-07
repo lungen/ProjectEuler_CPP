@@ -33,6 +33,11 @@ https://gmplib.org/
 C Adding two big numbers
 http://forum.codecall.net/topic/72184-cc-adding-two-big-numbers/
 
-BOOKS 
+
+BOOKS
+
 https://de.m.wikibooks.org/wiki/C%2B%2B-Programmierung/_Inhaltsverzeichnis
 
+
+IDEs/DEBUGGER
+https://www.tecmint.com/best-linux-ide-editors-source-code-editors/
