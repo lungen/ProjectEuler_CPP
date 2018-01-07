@@ -6,6 +6,9 @@ The problems were solved by using C++11!
 
 SOURCES
 
+C++ Containers
+https://de.wikibooks.org/wiki/C%2B%2B-Programmierung/_Die_STL/_Container
+
 C++ Pointers
 https://www.tutorialspoint.com/cplusplus/cpp_pointers.htm
 
