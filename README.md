@@ -6,11 +6,20 @@ The problems were solved by using C++11!
 
 SOURCES
 
+C++ Containers
+https://de.wikibooks.org/wiki/C%2B%2B-Programmierung/_Die_STL/_Container
+
 C++ Pointers
 https://www.tutorialspoint.com/cplusplus/cpp_pointers.htm
 
 C++ Arrays
 http://www.academia.edu/6133228/Arrays_and_Strings_in_C_Programming
+ 
+C++ Mixed Array Typez
+https://stackoverflow.com/questions/4393027/mixed-arrays-in-c-and-c-sharp
+
+C++ Vectors (1D & 2D)
+http://www-h.eng.cam.ac.uk/help/tpl/languages/C++/vectormemory.html
 
 C++ Vectors
 https://stackoverflow.com/questions/26997740/c-elegant-way-to-mark-index-which-doesnt-belong-to-a-vector
@@ -34,3 +43,11 @@ https://gmplib.org/
 C Adding two big numbers
 http://forum.codecall.net/topic/72184-cc-adding-two-big-numbers/
 
+
+BOOKS
+
+https://de.m.wikibooks.org/wiki/C%2B%2B-Programmierung/_Inhaltsverzeichnis
+
+
+IDEs/DEBUGGER
+https://www.tecmint.com/best-linux-ide-editors-source-code-editors/
