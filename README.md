@@ -15,6 +15,9 @@ http://www.academia.edu/6133228/Arrays_and_Strings_in_C_Programming
 C++ Mixed Array Typez
 https://stackoverflow.com/questions/4393027/mixed-arrays-in-c-and-c-sharp
 
+C++ Vectors (1D & 2D)
+http://www-h.eng.cam.ac.uk/help/tpl/languages/C++/vectormemory.html
+
 C++ Working with strings (stringstream)
 http://www.dreamincode.net/forums/topic/95826-stringstream-tutorial/
 
