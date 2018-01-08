@@ -52,7 +52,7 @@ int main()
 
     // sum of array
     int sumOfArray = 0;
-    for (int i = 0; i < 512; ++i) sumOfArray += array[i];
+    for (int i = 0; i < 256; ++i) sumOfArray += array[i];
     cout << "sum: " << sumOfArray << endl;
 
     return 0;
