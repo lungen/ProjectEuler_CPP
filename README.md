@@ -36,6 +36,9 @@ C++ Parse (split) a string in C++ using string delimiter (standard C++): "tom", 
 C++ Map (The C++ Dictionary Class)
 https://www.moderncplusplus.com/map/
 
+C++ A simple map: char and int : Map « Data Structure « C++
+http://www.java2s.com/Code/Cpp/Data-Structure/Asimplemapcharandint.htm
+
 GMP - The GNU Multiple Precision Arithmetic Library (Big Numbers)
 https://gmplib.org/
 
