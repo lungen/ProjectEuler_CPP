@@ -31,6 +31,8 @@ http://forums.codeguru.com/showthread.php?540809-understanding-istringstream-in-
     C++ Convert String-Index to integer:
     int number = stoi(line.substr(index, 1));
 
+C++ Parse (split) a string in C++ using string delimiter (standard C++): "tom", "cat", "joe"
+
 C++ Map (The C++ Dictionary Class)
 https://www.moderncplusplus.com/map/
 
