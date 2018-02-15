@@ -24,7 +24,7 @@ void showLimits() {
 // *** *** *** *** *** *** *** ARRAY ** *** *** *** *** *** *** *** *** *** *** *** ***
 void printArray (int arg[], int length)
 {
-    cout << __func__ << endl;
+    cout <<"-> " << __func__ << ": " << endl;
     for (int n=0; n<length; ++n)
     cout << arg[n] << ' ';
     cout << '\n';
@@ -55,6 +55,7 @@ void printVectorStr(vector<string>& v)
 
 void printVectorInt(vector<int>& v)
 {
+    cout << "-> printVectorInt: v.size(): " << v.size() << endl;
     for (int i = 0; i < v.size(); ++i){
         cout << v[i] << " ";
     }
