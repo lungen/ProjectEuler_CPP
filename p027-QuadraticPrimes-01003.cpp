@@ -43,57 +43,41 @@ int main()
     int counter = 0;
     int product = 0;
     vector<int> v;
-    v = {};
 
 
-    for (int b = 1; b < lim; ++b)
+    for (int b = -1000; b <= lim; ++b)
     {
-        for (int a = 1; a <= lim && a <= b; ++a)
+        for (int a = -999; a < lim && a <= b; ++a)
         {
-            for (int n = 0; n <= lim && n <= a && n <= b; ++n)
-            //for (int n = 0; n <= 10; ++n)
+            for (int n = 0; n <= lim && n <= b; ++n)
             {
                 res = (n *n) + (a * n) + b;
-            //cout << "a: " << a << " b: " << b << endl;
-            if (isPrime(res))
-            {
-                //cout << "b: " << b << " a: " << a;
-                //cout << " n: " << n << " res: " << res << endl;
-                counter += 1;
-            } else {
-                //cout << "b: " << b << " a: " << a;
-                //cout << " n: " << n << " res: " << res;
-                //cout << " -> break -> " << endl;
-                if (counter > maxRes){
-                    maxRes = counter;
-                    product = a * b;
+                if (isPrime(res))
+                {
+                    counter += 1;
+                } else {
+                    if (counter > maxRes){
+                        maxRes = counter;
+                        product = a * b;
 
-                    if(v.size() > 0){
-                        //cout << "-----------------------> v-size: " << v.size() << endl;
-                        while(v.size() > 0) v.erase(v.begin());
+                        if(v.size() > 0){
+                            while(v.size() > 0) v.erase(v.begin());
+                        }
+                        v.push_back(a);
+                        v.push_back(b);
                     }
-                    v.push_back(a);
-                    v.push_back(b);
+                    counter = 0;
+                    break;
                 }
-                counter = 0;
-                break;
-            }
             }
         }
     }
-    cout << "counter: "<< counter;
-    cout << " maxRes: " << maxRes;
-    cout << " product: " << product;
+
     cout << endl;
-    cout << " size of v: " << v.size() << endl;
     printVectorInt(v);
-    cout << "product of v: ";
-    int ans = 1;
-    while (v.size() > 0){
-        ans *= (int) v.front();
-        v.erase(v.begin());
-    }
-    cout << " ans: " << ans;
+    cout << "\nmaxRes: " << maxRes;
+    cout << "\nproduct: " << product;
+
     return 0;
 }
 
